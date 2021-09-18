@@ -1,4 +1,4 @@
-import {ReactComponent as Bear} from '../assets/bear.svg'
+import {ReactComponent as Bigfoot} from '../assets/bear.svg'
 import './styles.scss'
 import './styles.svg.scss'
 
@@ -7,7 +7,7 @@ export function SignIn() {
     <form>
       <div className="svgContainer">
         <div>
-          <Bear />
+          <Bigfoot />
         </div>
       </div>
       <div className="input-group email">
