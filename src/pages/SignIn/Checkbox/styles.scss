@@ -1,0 +1,73 @@
+.inputCheckbox {
+  display: flex;
+  position: relative;
+  align-items: center;
+
+  label {
+    display: block;
+    margin: 0 0 12px;
+    position: absolute;
+    font-size: 1.25em;
+    color: var(--darkblue);
+    font-weight: 700;
+    
+
+    padding: 0 0 0 1.45rem;
+    top: 0.5rem;
+    right: 0;
+    font-size: 1.1rem;
+
+
+    input {
+      cursor: pointer;
+      position: absolute;
+      z-index: 1;
+      opacity: 0;
+      height: 1.09rem;
+      width: 1.09rem;
+      left: 0.04rem;
+      top: 0.04rem;
+    }
+
+    .indicator {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 1.09em;
+      width: 1.09em;
+      background-color: var(--inputBG);
+      border: 2px solid var(--darkblue);
+      border-radius: 3px;
+    }
+
+    .indicator:after {
+      content: "";
+      position: absolute;
+      left: 0.29rem;
+      top: 0.1rem;
+      width: 0.2rem;
+      height: 0.5rem;
+      border: solid var(--darkblue);
+      border-width: 0 3px 3px 0;
+      transform: rotate(45deg);
+      visibility: hidden;
+    }
+
+    input:checked ~ .indicator:after {
+      visibility: visible;
+    }
+
+    input:focus ~ .indicator,
+    input:hover ~ .indicator {
+      border-color: var(--medBlue);
+    }
+
+    input:disabled ~ .indicator {
+      opacity: 0.5;
+    }
+
+    input:disabled ~ .indicator:after {
+      visibility: hidden;
+    }
+  }
+}

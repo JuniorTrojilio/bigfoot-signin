@@ -1,10 +1,16 @@
-import React from 'react';
+import './styles.scss'
 
-export function Checkbox() {
+interface InputProps {
+  id: string;
+}
+
+export function Checkbox({id, ...rest}: InputProps) {
   return (
-    <label id="showPasswordToggle" htmlFor="showPasswordToggle">Show
-      <input id="showPasswordToggle" type="checkbox" />
-      <div className="indicator"></div>
-    </label>
+    <div className="inputCheckbox">
+      <label className=".inputLabel" htmlFor={id}>Show
+        <input {...rest} id={id} type="checkbox" />
+        <div className="indicator" />
+      </label>
+    </div>
   )
 }
