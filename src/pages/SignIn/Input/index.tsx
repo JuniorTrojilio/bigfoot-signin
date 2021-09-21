@@ -7,7 +7,7 @@ interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
 
 export function Input({label, ...rest }: InputProps) {
   return (
-    <div>
+    <div className="inputGroup">
       <label htmlFor={rest.id} >{label}</label>
       <input 
         type={rest.type} 
@@ -15,7 +15,7 @@ export function Input({label, ...rest }: InputProps) {
         id={rest.id} 
         placeholder={rest.placeholder} 
         required />
-      {rest.type !== "password" && (<p>email @domain.com.br</p>)}
+      {rest.type !== "password" && (<p>email@domain.com.br</p>)}
     </div>
   )
 }
