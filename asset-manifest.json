@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/bigfoot-signin/static/css/main.20b82cd9.chunk.css",
+    "main.js": "/bigfoot-signin/static/js/main.1827a573.chunk.js",
+    "main.js.map": "/bigfoot-signin/static/js/main.1827a573.chunk.js.map",
+    "runtime-main.js": "/bigfoot-signin/static/js/runtime-main.7fb3a8cf.js",
+    "runtime-main.js.map": "/bigfoot-signin/static/js/runtime-main.7fb3a8cf.js.map",
+    "static/js/2.d082686b.chunk.js": "/bigfoot-signin/static/js/2.d082686b.chunk.js",
+    "static/js/2.d082686b.chunk.js.map": "/bigfoot-signin/static/js/2.d082686b.chunk.js.map",
+    "index.html": "/bigfoot-signin/index.html",
+    "static/css/main.20b82cd9.chunk.css.map": "/bigfoot-signin/static/css/main.20b82cd9.chunk.css.map",
+    "static/js/2.d082686b.chunk.js.LICENSE.txt": "/bigfoot-signin/static/js/2.d082686b.chunk.js.LICENSE.txt",
+    "static/media/bear.9c54479c.svg": "/bigfoot-signin/static/media/bear.9c54479c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7fb3a8cf.js",
+    "static/js/2.d082686b.chunk.js",
+    "static/css/main.20b82cd9.chunk.css",
+    "static/js/main.1827a573.chunk.js"
+  ]
+}
